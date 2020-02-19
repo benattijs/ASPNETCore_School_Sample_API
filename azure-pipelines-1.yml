@@ -32,10 +32,3 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Free Trial(cbc3fabc-5b7f-4bd8-9784-b148044098d1)'
-    appType: 'webApp'
-    WebAppName: 'jbSchoolapi'
-    packageForLinux: '$(build.artifactStagingDirectory)/*.zip'
