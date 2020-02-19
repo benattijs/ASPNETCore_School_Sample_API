@@ -32,6 +32,12 @@ namespace SchoolAPI.Controllers
                 Level = "University",
                 Location = "Tres de Maio"
 
+            },
+            new {
+                Name = "UFRGS",
+                Level = "University",
+                Location = "Porto Alegre"
+
             }
             };
                             
